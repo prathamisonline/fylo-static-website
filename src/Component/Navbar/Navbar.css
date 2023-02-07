@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.logo {
+  width: 10%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: rgb(196, 193, 193);
+}
+
+.nav-items {
+  display: flex;
+  gap: 2em;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 20%;
+  }
+  .nav-items {
+    gap: 1em;
+    font-size: 0.8rem;
+  }
+}
