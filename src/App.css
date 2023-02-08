@@ -5,7 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  font-size: 62.5%;
+  /* 62.5% of the base size of 16px = 10px.*/
+}
 body {
   margin: 1rem;
   font-family: "Poppins", sans-serif;

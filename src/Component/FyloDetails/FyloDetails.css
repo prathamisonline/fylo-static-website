@@ -1,0 +1,42 @@
+section {
+  margin-top: 8rem;
+}
+.detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+.detail-item {
+  text-align: center;
+  max-width: 350px;
+  color: #fff;
+  margin: auto;
+}
+.detail-img {
+  margin-bottom: 1rem;
+  width: 5rem;
+}
+.detail-heading {
+  font-size: 20px;
+  margin-top: 1rem;
+}
+.detail-text {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+  line-height: 1.3;
+}
+
+@media (max-width: 600px) {
+  .detail {
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .fix {
+    margin-top: 8rem;
+  }
+  .detail-item {
+    width: 95%;
+  }
+}
